@@ -137,6 +137,10 @@ const app = express();
 
 const port: number = 3000;
 
+app.get("/", (req, res) => {
+  res.send({ message: "It works!!!" });
+});
+
 app.listen(port, () => {
   console.log(`Server listening on port: ${port}`);
 });
@@ -165,3 +169,5 @@ node dist/app.js
 ```json
 "dev": "node dist/app.js"
 ```
+
+Ahora ya tenemos nuestra api básica funcionando y, a partir de aquí, podemos seguir desarrollandola.
