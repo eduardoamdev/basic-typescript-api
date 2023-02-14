@@ -1,0 +1,20 @@
+{
+  "name": "basic-typescript-api",
+  "version": "1.0.0",
+  "description": "<img src=\"./images/typescript-logo.png\" alt=\"typescript-logo\" />",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "dev": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
