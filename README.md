@@ -1,4 +1,4 @@
-# API de productos con Typescript
+# API básica con Typescript 
 
 <img src="./images/typescript-logo.png" alt="typescript-logo" />
 
